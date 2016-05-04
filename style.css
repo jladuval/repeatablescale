@@ -21,3 +21,10 @@
 .rightside{
   float: right;
 }
+
+.quote{
+  font-size: 16pt;
+  width: 300px;
+  font-style: italic;
+  font-family: monospace;
+}
