@@ -2,7 +2,7 @@
 <html>
 
   <head>
-    <title>web-presentation example</title>
+    <title>Repeatable Scale</title>
     <link rel="import" href="https://cdn.rawgit.com/ChristianKohler/web-presentation/v1.0.1/dist/web-presentation.html">
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
@@ -24,16 +24,17 @@
         <img src='images/mishlogo.png'></img>
         <h2>Software built on the Snapchat API</h2>
         <p data-enter="1">90% node</p>
+        <p data-enter="2">This talk isn't 90% node...</p>
       </web-slide>
 
       <web-slide>
         <h1>Beautiful Reference Drawings UAT</h1>
-        <img data-enter="1" src='images/nodelogo.png'></img>
+        <img data-enter="1" src='images/nodelogo.png' class="drawing"></img>
       </web-slide>
       
        <web-slide>
         <h1>Beautiful Reference Drawings UAT</h1>
-        <img data-enter="1" src='images/aws_logo.png'></img>
+        <img data-enter="1" src='images/aws_logo.png' class="drawing"></img>
       </web-slide>
       
        <web-slide>
@@ -42,10 +43,10 @@
       </web-slide>
 
       <web-slide>
-        <h1>Scale</h1>
+        <h1>Repeatable Scale</h1>
         <p data-enter="1">Vertical</p>
         <p data-enter="2">Horizontal</p>
-        <p data-enter="3">Humans</p>
+        <p data-enter="3">Dev</p>
       </web-slide>
 
       <web-slide>
@@ -61,13 +62,13 @@
       <web-slide>
         <h1>Ecosystem</h1>
         <h1>The trough of despair</h1>
-        drawing here
+        <img src='images/graph.png' class='drawing'></img>
       </web-slide>
 
       <web-slide>
         <h1>Ecosystem</h1>
         <h1>Dev Noise</h1>
-        drawing here?
+        <img data-enter="1" src='images/dev_noise.png' class='drawing-sm'></img>
       </web-slide>
 
       <web-slide>
@@ -79,10 +80,10 @@
 
       <web-slide>
         <h1>Ecosystem</h1>
-        <h1>Result</h1>
+        <h1>At the end of all this</h1>
         <p data-enter="1">Scalable</p>
         <p data-enter="2">Latest Technology</p>
-        <p data-enter="3">Sales happy</p>
+        <p data-enter="3">Sales people happy</p>
         <p data-enter="4">Developers happy</p>
         <p data-enter="5">Forever</p>
       </web-slide>
@@ -93,7 +94,7 @@
         <p>You're either...</p>
         <p data-enter="1">Writing legacy code to push features out quickly <span data-enter="2">= Developer guilt</span></p>
         <p data-enter="3">Taking too long future proofing <span data-enter="4">= Business guilt</span></p>
-        <p data-enter="5">Juggling picture</p>
+        <img data-enter="5" src='images/juggling.png' class='drawing-sm'></img>
       </web-slide>
       
        <web-slide>
@@ -115,7 +116,7 @@
       </web-slide>
 
       <web-slide>
-        <img src='images/nodelogo.png'></img>
+        <img src='images/nodelogo.png' class='drawing-sm'></img>
         <h1 data-enter="1">microservices</h1>
       </web-slide>
       
@@ -125,7 +126,7 @@
       </web-slide>
       
       <web-slide>
-        <img src='images/yourenotwrong.png'></img>
+        <h1>You're not wrong</h1>
         <h1 data-enter="1">Jacob's warped idea of what a microservices are.</h1>
       </web-slide>
 
@@ -147,12 +148,17 @@
 
       <web-slide>
         <h1>The Lazy Village</h1>
-        <ol>
-          <li data-enter="1">Someone wants a candle</li>
-          <li data-enter="1">Customer: Fred</li>
-          <li data-enter="1">Colour: Blue</li>
-        </ol>
-        <img src='images/candlemaker_paper.png' class="drawing"></img>
+        <div>
+           <div class="leftside">
+            <h3>The Candlemaker</h3>
+            <ol>
+              <li data-enter="1">Someone wants a candle</li>
+              <li data-enter="1">Customer: Fred</li>
+              <li data-enter="1">Colour: Blue</li>
+            </ol>
+          </div>
+          <img src='images/candlemaker_paper.png' class="drawing rightside"></img>
+        </div>
       </web-slide>
       
       <web-slide>
@@ -172,12 +178,17 @@
 
       <web-slide>
         <h1>The Lazy Village</h1>
-        <ol>
-          <li data-enter="1">Someone wants wax</li>
-          <li data-enter="1">Customer: Fred</li>
-          <li data-enter="1">Colour: Blue</li>
-        </ol>
-        <img src='images/waxlady_paper.png' class="drawing"></img>
+        <div>
+           <div class="leftside">
+            <h3>The Wax...lady?</h3>
+            <ol>
+              <li data-enter="1">Someone wants wax</li>
+              <li data-enter="1">Customer: Fred</li>
+              <li data-enter="1">Colour: Blue</li>
+            </ol>
+          </div>
+          <img src='images/waxlady_paper.png' class="drawing rightside"></img>
+        </div>
       </web-slide>
 
       <web-slide>
@@ -201,13 +212,18 @@
       </web-slide>
       
       <web-slide>
-        <h1>The Lazy Village</h1>
-        <ol>
-          <li>Someone wants a candle</li>
-          <li>Customer: Fred</li>
-          <li>Colour: Blue</li>
-        </ol>
-        <img src='images/candlemaker_paper.png' class="drawing"></img>
+       <h1>The Lazy Village</h1>
+        <div>
+           <div class="leftside">
+            <h3>The Candlemaker</h3>
+            <ol>
+              <li data-enter="1">Someone wants a candle</li>
+              <li data-enter="1">Customer: Fred</li>
+              <li data-enter="1">Colour: Blue</li>
+            </ol>
+          </div>
+          <img src='images/candlemaker_paper.png' class="drawing rightside"></img>
+        </div>
       </web-slide>
       
       <web-slide>
@@ -228,7 +244,7 @@
       
       <web-slide>
         <h1>Communication</h1>
-        <img data-enter="1" src='images/aws_logo.png' class="drawing"></img>
+        <img data-enter="1" src='images/aws_logo.png' class="drawing-sm"></img>
         <h2 data-enter="1">Fanout</h2>
         <h2 data-enter="2">Jacob show us some code</h2>
       </web-slide>
@@ -240,69 +256,68 @@
       
       <web-slide>
         <h1>Deployment</h1>
-        <img data-enter="1" src='images/circle_logo.png' class="drawing"></img>
+        <img src='images/circleci.png' class="drawing"></img>
         +
-        <img data-enter="1" src='images/docker_logo.png' class="drawing"></img>
+        <img src='images/docker_logo.png' class="drawing"></img>
       </web-slide>
       
       <web-slide>
         <h1>Hosting</h1>
-        <img data-enter="1" src='images/aws_logo.png' class="drawing"></img>
-        <p>t2.micro</p>
+        <img src='images/aws_logo.png' class="drawing"></img>
+        <p>Elastic Beanstalk running t2.micro</p>
       </web-slide>
       
       <web-slide>
-        <h1>Review</h1>
-        <img data-enter="1" src='images/arrow.png' class="drawing"></img>
+        <h1>You're in control</h1>
+        <img src='images/arrow.png' class="drawing"></img>
       </web-slide>
       
       <web-slide>
         <h1>Cool services stuff we can do</h1>
         <p data-enter="1">Gradual rollout</p>
-        <img data-enter="1" src='images/arrow.png' class="drawing"></img>
+        <img data-enter="1" src='images/gradual_rollout.png' class="drawing"></img>
       </web-slide>
       
       <web-slide>
         <h1>Cool stuff we can do</h1>
-        <p data-enter="1">Scheduling</p>
-        <img data-enter="1" src='images/arrow.png' class="drawing"></img>
+        <p>Scheduling</p>
+        <img src='images/sundial.png' class="drawing"></img>
       </web-slide>
       
       <web-slide>
         <h1>Cool stuff we can do</h1>
-        <p data-enter="1">Error Handling</p>
-        <img data-enter="1" src='images/arrow.png' class="drawing"></img>
+        <p>Error Handling</p>
+        <img src='images/error_handling.png' class="drawing"></img>
       </web-slide>
       
       <web-slide>
         <h1>Cool stuff we can do</h1>
-        <p data-enter="1">Debugging</p>
-        <img data-enter="1" src='images/arrow.png' class="drawing"></img>
+        <p>Debugging</p>
+        <img src='images/debugging.png' class="drawing"></img>
       </web-slide>
       
       <web-slide>
         <h1>Cool stuff we can do</h1>
-        <p data-enter="1">Feature Delivery</p>
-        <p data-enter="1">New features have minimal impact on overall complexity</p>
-        <img data-enter="1" src='images/arrow.png' class="drawing"></img>
+        <p>Feature Delivery</p>
+        <p>New features have minimal impact on overall complexity</p>
       </web-slide>
       
       <web-slide>
         <h1>Cool stuff we can do</h1>
-        <p data-enter="1">Admin Portal</p>
-        <p data-enter="1">Screenshot 1</p>
+        <p>Admin Portal</p>
+        <p>Screenshot 1</p>
       </web-slide>
       
-      <web-slide>
+       <web-slide>
         <h1>Cool stuff we can do</h1>
-        <p data-enter="1">Admin Portal</p>
-        <p data-enter="1">Screenshot 2</p>
+        <p>Admin Portal</p>
+        <p>Screenshot 1</p>
       </web-slide>
       
-      <web-slide>
+       <web-slide>
         <h1>Cool stuff we can do</h1>
-        <p data-enter="1">Admin Portal</p>
-        <p data-enter="1">Screenshot 3</p>
+        <p>Admin Portal</p>
+        <p>Screenshot 1</p>
       </web-slide>
       
        <web-slide>
@@ -332,7 +347,7 @@
        <web-slide>
         <h1>What's next?</h1>
         <h2>Time Travel?</h2>
-        <img src='images/rick_morty.png' class="drawing"></img>
+        <img src='images/rick_morty.png' class="drawing-sm"></img>
       </web-slide>
       
        <web-slide>

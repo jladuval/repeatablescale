@@ -2,3 +2,17 @@
   max-height: 400px;
   max-width: 400px;
 }
+
+.drawing-sm{
+  max-height: 300px;
+  max-width: 300px;
+}
+
+.leftside{
+  top: 100px;
+  float: left;
+}
+
+.rightside{
+  float: right;
+}
