@@ -8,6 +8,11 @@
   max-width: 300px;
 }
 
+.drawing-wd{
+  max-width: 700px;
+  max-height: 300px;
+}
+
 .leftside{
   top: 100px;
   float: left;
